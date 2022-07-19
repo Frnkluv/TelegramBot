@@ -13,7 +13,7 @@ namespace TelegramBotTest
 {
     class Program
     {
-        private const string TOKEN = "5233195960:AAFdloZ8x5tJipY2uyqPNWnXiza5Jwk-mwI";
+        private const string TOKEN = "che-to123";
         private static TelegramBotClient botClient;
 
         static void Main(string[] args)

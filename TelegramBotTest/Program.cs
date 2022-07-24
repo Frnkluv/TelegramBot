@@ -46,19 +46,9 @@ namespace TelegramBotTest
                         case "Расчет КБЖУ":
                             // Подключить сюда БД?
                             // Реализовать кейсы через словарь dict ?
-
-                            //await botClient.SendTextMessageAsync(msg.Chat.Id, "Введите вес:");
                             await botClient.SendTextMessageAsync(msg.Chat.Id, TextFormula.Formula());
 
 
-                            break;
-                            
-                        // создать метод который принимает строку, преобраз в число, вычисляет, затем конвертирует назад в строку!
-                        case "50":
-                            double x = double.Parse(msg.Text);
-                            x *= 10;
-                            var z = Convert.ToString(x);
-                            await botClient.SendTextMessageAsync(msg.Chat.Id, z);
                             break;
 
 
